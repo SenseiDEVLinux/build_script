@@ -7,6 +7,7 @@ rm -rf .repo/local_manifests/
 rm -rf device/xiaomi/lavender
 rm -rf vendor/xiaomi/lavender
 rm -rf kernel/xiaomi/lavender
+rm -rf vendor/motorola-dolby
 rm -rf hardware/xiaomi
 
 # Remove hals tree
