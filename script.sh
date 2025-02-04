@@ -14,5 +14,4 @@ echo -e "\e[33m \033[1m LET'S GO \e[0m \033[0m"
 lunch lineage_lavender-user
 m evolution
 
-curl bashupload.com -T 
-out/target/product/lavender/EvolutionX*.zip
+curl bashupload.com -T out/target/product/lavender/EvolutionX*.zip
