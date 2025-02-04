@@ -15,4 +15,4 @@ lunch lineage_lavender-user
 m evolution
 
 curl bashupload.com -T 
-out/target/product/lavender/Evolution*.zip
+out/target/product/lavender/EvolutionX*.zip
