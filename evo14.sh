@@ -43,7 +43,7 @@ repo init -u https://github.com/Evolution-X/manifest -b udc --git-lfs
 	git clone --depth 1 https://github.com/LineageOS/android_hardware_xiaomi -b lineage-21 hardware/xiaomi
 	
 # Cloning Dolby Atmos
-	git clone --depth 1 https://github.com/userariii/vendor_motorola-dolby vendor/motorola-dolby
+	git clone --depth 1 https://github.com/userariii/vendor_motorola-dolby -b v1.2 vendor/motorola-dolby
 	
 # Set up th build environment
 . build/envsetup.sh
