@@ -11,6 +11,4 @@ echo -e "\e[33m \033[1m LET'S GO \e[0m \033[0m"
 
 . build/envsetup.sh
 lunch lineage_lavender-userdebug
-m bacon
-
-curl bashupload.com -T out/target/product/lavender/EvolutionX*.zip
+mka bacon
