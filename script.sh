@@ -7,8 +7,6 @@ git clone https://github.com/SenseiDEVLinux/LocalManifest --depth 1 -b los21 .re
 
 /opt/crave/resync.sh
 
-echo -e "\e[33m \033[1m LET'S GO \e[0m \033[0m"
-
 . build/envsetup.sh
-lunch lineage_lavender-userdebug
+lunch lineage_lavender-ap2a-userdebug
 mka bacon
