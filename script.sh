@@ -8,10 +8,6 @@ git clone https://github.com/SenseiDEVLinux/LocalManifest --depth 1 -b Evo14 .re
 
 /opt/crave/resync.sh
 
-echo -e "\e[33m \033[1m LET'S GO \e[0m \033[0m"
-
 . build/envsetup.sh
 lunch lineage_lavender-user
 m evolution
-
-curl bashupload.com -T out/target/product/lavender/EvolutionX*.zip
