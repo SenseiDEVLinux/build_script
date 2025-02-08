@@ -9,5 +9,5 @@ git clone https://github.com/SenseiDEVLinux/LocalManifest --depth 1 -b Evo14 .re
 /opt/crave/resync.sh
 
 . build/envsetup.sh
-lunch lineage_lavender-user
+lunch lineage_lavender-userdebug
 m evolution
