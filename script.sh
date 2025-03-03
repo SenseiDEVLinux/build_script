@@ -8,5 +8,5 @@ git clone https://github.com/SenseiDEVLinux/LocalManifest --depth 1 -b los21-gar
 /opt/crave/resync.sh
 
 . build/envsetup.sh
-lunch lineage_lavender-ap2a-userdebug
+lunch lineage_garnet-ap2a-userdebug
 mka bacon
