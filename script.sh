@@ -9,4 +9,4 @@ git clone https://github.com/SenseiDEVLinux/LocalManifest --depth 1 -b sacura .r
 
 . build/envsetup.sh
 lunch lineage_garnet-ap4a-userdebug
-make bacon
+mka bacon
