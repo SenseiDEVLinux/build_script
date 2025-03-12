@@ -8,5 +8,5 @@ git clone https://github.com/SenseiDEVLinux/LocalManifest --depth 1 -b cr15 .rep
 /opt/crave/resync.sh
 
 . build/envsetup.sh
-lunch lineage_garnet-ap2a-userdebug
+lunch lineage_garnet-ap4a-userdebug
 brunch garnet
