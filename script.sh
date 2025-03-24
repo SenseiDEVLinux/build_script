@@ -8,6 +8,12 @@ git clone https://github.com/SenseiDEVLinux/LocalManifest --depth 1 -b 77 .repo/
 
 /opt/crave/resync.sh
 
+rm -rf hardware
+
+rm -rf device/qcom/sepolicy_vndr
+
+git clone https://github.com/LineageOS/android_device_qcom_sepolicy_vndr device/qcom/sepolicy_vndr/sm8450
+
 . build/envsetup.sh
 lunch lineage_garnet-ap4a-user
 mka bacon
