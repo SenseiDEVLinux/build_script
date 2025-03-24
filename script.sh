@@ -6,8 +6,8 @@ repo init -u https://github.com/LineageOS/android.git -b lineage-22.1 --git-lfs
 
 git clone https://github.com/SenseiDEVLinux/LocalManifest --depth 1 -b 77 .repo/local_manifests
 
-/opt/crave/resync.sh
+/opt/crave/resync.sh # repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
 
-. build/envsetup.sh
+source build/envsetup.sh
 lunch lineage_garnet-ap4a-user
 mka bacon
