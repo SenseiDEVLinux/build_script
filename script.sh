@@ -4,5 +4,5 @@ rm -rf .repo/local_manifests; git clone https://github.com/SenseiDEVLinux/LocalM
 /opt/crave/resync.sh # repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
 source build/envsetup.sh
 export TZ=Asia/Dhaka
-lunch lineage_garnet-ap4a-user
+lunch lineage_garnet-ap4a-userdebug
 mka bacon
