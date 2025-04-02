@@ -7,15 +7,6 @@ git clone https://github.com/SenseiDEVLinux/local_manifests --depth 1 -b crdroid
 
 /opt/crave/resync.sh
 
-# Some Gapps flags 
-WITH_GMS := true
-TARGET_SUPPORTS_QUICK_TAP := true
-TARGET_SUPPORTS_CALL_RECORDING := true
-TARGET_INCLUDE_STOCK_ARCORE := false
-TARGET_INCLUDE_LIVE_WALLPAPERS := true
-TARGET_SUPPORTS_GOOGLE_RECORDER := true
-TARGET_INCLUDE_MATLOG := true
-
 . build/envsetup.sh
 lunch lineage_garnet-ap4a-userdebug
 mka bacon
