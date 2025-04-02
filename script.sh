@@ -9,4 +9,5 @@ git clone https://github.com/SenseiDEVLinux/local_manifests --depth 1 -b crdroid
 
 . build/envsetup.sh
 lunch lineage_garnet-ap4a-userdebug
+WITH_GMS := true
 mka bacon
