@@ -8,5 +8,5 @@ git clone https://github.com/SenseiDEVLinux/local_manifests --depth 1 -b yaap-15
 /opt/crave/resync.sh
 
 . build/envsetup.sh
-lunch yaap_garnet-bp1a-eng
+lunch yaap_garnet-bp1a-userdebug
 m yaap
