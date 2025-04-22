@@ -2,11 +2,11 @@
 
 rm -rf .repo/local_manifests
 
-repo init -u https://github.com/Pixel-Project-Staging/manifest -b 15-pfw --git-lfs
-git clone https://github.com/SenseiDEVLinux/local_manifests --depth 1 -b pixel .repo/local_manifests
+repo init -u https://github.com/GenesisOS/manifest.git -b verve-qpr2 --git-lfs
+git clone https://github.com/SenseiDEVLinux/local_manifests --depth 1 -b genesis .repo/local_manifests
 
 /opt/crave/resync.sh
 
 . build/envsetup.sh
-lunch aosp_garnet-bp1a-userdebug
-make bacon
+breakfast garnet
+mka genesis
