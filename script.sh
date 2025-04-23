@@ -8,4 +8,4 @@ git clone https://github.com/SenseiDEVLinux/local_manifests --depth 1 -b bliss .
 /opt/crave/resync.sh
 
 . build/envsetup.sh
-blissify -v garnet
+blissify -g garnet
