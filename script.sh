@@ -8,4 +8,5 @@ git clone https://github.com/SenseiDEVLinux/local_manifests --depth 1 -b evo .re
 /opt/crave/resync.sh
 
 . build/envsetup.sh
-brunch garnet
+lunch lineage_garnet-ap4a-userdebug
+mka bacon
