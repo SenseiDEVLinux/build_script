@@ -2,11 +2,11 @@
 
 rm -rf .repo/local_manifests
 
-repo init -u https://github.com/The-Pixel-Project/manifest -b 15 --git-lfs
-git clone https://github.com/SenseiDEVLinux/local_manifests --depth 1 -b yaap .repo/local_manifests
+repo init -u https://github.com/VoltageOS/manifest.git -b 15-qpr2 --git-lfs
+git clone https://github.com/SenseiDEVLinux/local_manifests --depth 1 -b voltage .repo/local_manifests
 
 /opt/crave/resync.sh
 
 . build/envsetup.sh
-lunch aosp_garnet-bp1a-userdebug
-make bacon
+lunch voltage_garnet-bp1a-userdebug
+mka bacon
