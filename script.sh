@@ -9,5 +9,5 @@ git clone https://github.com/SenseiDEVLinux/local_manifests --depth 1 -b evo-oss
 /opt/crave/resync.sh
 
 . build/envsetup.sh
-lunch lineage_garnet-bp1a-userdebug
+lunch lineage_garnet-bp1a-eng
 m evolution
