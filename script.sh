@@ -2,8 +2,8 @@
 
 rm -rf .repo/local_manifests
 
-repo init -u https://github.com/crdroidandroid/android.git -b 15.0 --git-lfs
-git clone https://github.com/SenseiDEVLinux/local_manifests --depth 1 -b cr15 .repo/local_manifests
+repo init -u https://github.com/Los-Ext/manifest.git -b 15.2 --git-lfs
+git clone https://github.com/SenseiDEVLinux/local_manifests --depth 1 -b los22-ext .repo/local_manifests
 
 /opt/crave/resync.sh
 
