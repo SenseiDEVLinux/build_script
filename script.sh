@@ -8,5 +8,5 @@ git clone https://github.com/SenseiDEVLinux/local_manifests --depth 1 -b cr15-sa
 /opt/crave/resync.sh
 
 . build/envsetup.sh
-lunch lineage_saphhire-bp1a-userdebug
+lunch lineage_sapphire-bp1a-userdebug
 mka bacon
