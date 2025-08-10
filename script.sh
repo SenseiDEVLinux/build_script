@@ -2,6 +2,8 @@
 
 rm -rf .repo/local_manifests
 
+rm -rf vendor/voltage-priv/keys
+
 repo init -u https://github.com/VoltageOS/manifest.git -b 15-qpr2 --git-lfs
 git clone https://github.com/SenseiDEVLinux/local_manifests --depth 1 -b volt15 .repo/local_manifests
 
@@ -13,7 +15,7 @@ git clone https://github.com/VoltageOS/vendor_voltage-priv_keys -b 15-qpr2 vendo
 cd vendor/voltage-priv/keys
 chmod +x keys.sh
 ./keys.sh
-cd ../../../
+cd ../../..
 
 lunch voltage_garnet-bp1a-userdebug
 mka bacon
