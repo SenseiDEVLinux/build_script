@@ -15,7 +15,7 @@ git clone https://github.com/VoltageOS/vendor_voltage-priv_keys -b 15-qpr2 vendo
 cd vendor/voltage-priv/keys
 chmod +x keys.sh
 ./keys.sh
-cd ../../..
+cd ../../../
 
 lunch voltage_garnet-bp1a-userdebug
 mka bacon
