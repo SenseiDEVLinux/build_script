@@ -2,6 +2,8 @@
 
 rm -rf .repo/local_manifests
 
+rm -rf prebuilts/clang/host/linux-x86
+
 repo init -u https://github.com/Evolution-X/manifest -b vic --git-lfs
 
 git clone https://github.com/SenseiDEVLinux/local_manifests --depth 1 -b evo .repo/local_manifests
